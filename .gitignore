@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Dane i Docker
+data/*.json        # Dane są w Mongo/MinIO, nie pchamy ich do Gita
+mongo_data/        # Pliki bazy MongoDB (z wolumenu Dockera)
+.env               # Twoje sekrety i hasła
+
+# Systemowe
+.DS_Store
