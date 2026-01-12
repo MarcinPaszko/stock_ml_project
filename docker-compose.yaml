@@ -18,6 +18,7 @@ services:
       - .:/home/jovyan/work
     environment:
       - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=958386fe274211cf3c951533bb06c43cba3922c3915fab82
 
 volumes:
   mongo_data:
